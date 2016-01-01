@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name of the App, this text is used in app launcher name and action bar -->
+    <string name="app_name">Football Scores</string>
+
+    <!-- Text used for settings in menu item -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Placeholder dummy text for home team name, displayed on every match detail list item-->
+    <string name="dummy_home_team_name">Home Team</string>
+
+    <!-- Placeholder dummy text for away team name, displayed on every match detail list item-->
+    <string name="dummy_away_team_name">Away Team</string>
+
+    <!-- Placeholder dummy text for league name, displayed on every match detail list item-->
+    <string name="dummy_league_name">League Name</string>
+
+    <!-- Placeholder dummy text for match day, displayed on every match detail list item-->
+    <string name="dummy_match_day">25</string>
+
+    <!-- Placeholder dummy text for match score, displayed on every match detail list item-->
+    <string name="dummy_score">2 - 2</string>
+
+    <!-- Placeholder dummy text for time, displayed on every match detail list item-->
+    <string name="dummy_time">12:00</string>
+
+    <!-- Respresents today's soccer matches, used in pager fragment as a header-->
+    <string name="today">Today</string>
+
+    <!-- Respresents yesterday's soccer matches, used in pager fragment as a header-->
+    <string name="yesterday">Yesterday</string>
+
+    <!-- Respresents tomorrow's soccer matches, used in pager fragment as a header-->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Below is the set of different leagues used on the football score list-->
+    <string name="champions_league">UEFA Champions League</string>
+    <string name="bundesliga">Bundesliga</string>
+    <string name="premierleague">Premier League</string>
+    <string name="primeradivison">Primera Division</string>
+    <string name="seriaa">Serie A</string>
+    <string name="matchday_text">Match day</string>
+    <string name="group_stage_text">Group stages</string>
+    <string name="first_knockout_round">First knockout round</string>
+    <string name="quarter_final">Quarter Final</string>
+    <string name="semi_final">Semi Final</string>
+    <string name="final_text">Final</string>
+
+    <!-- Text for share button, this text is displayed on the Share button-->
+    <string name="share_text">Share</string>
+
+    <!-- About menu item text-->
+    <string name="about">About</string>
+
+    <!-- Name of the about atctivity -->
+    <string name="title_activity_about">AboutActivity</string>
+
+    <!-- About text, this text is displayed in teh About section of the App-->
+    <string name="about_text">
+        This Application get Football Matches Score for the Premier League,Seria A,Bundesliga,Primera Division
+        and the Uefa Champions League.
+        All Matches data are acquired from football-data.org free API.
+        All team Logos are acquired from http://hdlogo.wordpress.com/ upon requesting permission form the owner.
+        The original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+        To report any bugs,or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+
+        During the off season, fake data will be added to the app.
+    </string>
+
+    <!-- Text to represent Football App Widget. This text is the label for Football Widget-->
+    <string name="widget_text">This is a widget probably.</string>
+
+    <!-- Text to represent Football Collection App Widget. This text is the label for Football Collection Widget-->
+    <string name="api_key" translatable="false">API_KEY_GOES_HERE</string>
+
+    <!-- Dummy data for the App. The Football score dummy data is used when the data from football API is not available-->
+    <string name="dummy_data">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}</string>
+
+    <!-- Account type for sync adapter, This string is not translatable-->
+    <string name="sync_account_type" translatable="false">barqsoft.footballscores</string>
+
+    <!-- Content Authority for Football scores Contract. This string is not translatable-->
+    <string name="content_authority" translatable="false">barqsoft.footballscores</string>
+
+    <!-- Content description text for collection widget-->
+    <string name="collection_widget_header_content_desc">Today\'s Matches List</string>
+
+    <!-- Content description text for share buttion-->
+    <string name="share_button_content_desc">Share Button</string>
+
+    <!-- Content description string for UI elements-->
+    <string name="title_football_widget">Football App Widget</string>
+    <string name="title_football_collection_widget">Football App Collection Widget. Today\'s Matches</string>
+</resources>
